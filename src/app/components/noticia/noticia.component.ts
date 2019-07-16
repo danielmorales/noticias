@@ -42,7 +42,7 @@ export class NoticiaComponent implements OnInit {
         cssClass: 'action-dark',
         handler: () => {
           console.log('Borrar de favoritos');
-          this.datalocalService.borrarNoticia(this.noticia)
+          this.datalocalService.borrarNoticia(this.noticia);
         }
       };
 
@@ -53,7 +53,7 @@ export class NoticiaComponent implements OnInit {
         cssClass: 'action-dark',
         handler: () => {
           console.log('Play clicked');
-          this.datalocalService.guardarNoticia(this.noticia)
+          this.datalocalService.guardarNoticia(this.noticia);
         }
       };
     }
